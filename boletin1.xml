@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minecraftItems lang="es">
+	<item>
+		<id>1</id>
+		<name>Arco</name>
+		<type>Arma</type>
+		<rarity>Común</rarity>
+		<damage>2</damage>
+		<description>Arma a distancia</description>
+		<crafteable>true</crafteable>
+        <materials>
+            <material>Palo</material>
+            <material>Hilo</material>
+            <material>Hierro</material>
+		<enchantable>true</enchantable>
+        <enchantments>
+            <enchantment>Infinidad</enchantment>
+            <enchantment>Recuperación</enchantment>
+            <enchantment>Disparo rápido</enchantment>
+	</item>
+    <item>
+	<id>2</id>
+	<name>Hacha de oro</name>
+	<type>Herramienta</type>
+	<rarity>Raro</rarity>
+	<damage>4 de daño</damage>
+	<description>Herramienta rápida pero poco duradera para talar árboles.</description>
+	<crafteable>true</crafteable>
+	<materials>
+		<material>3 - Lingote de oro</material>
+		<material>2- Palo</material>
+	</materials>
+	<enchantable>true</enchantable>
+	<enchantments>
+		<enchantment>Irrompibilidad</enchantment>
+		<enchantment>Afilado</enchantment>
+        <enchantment>Reparación</enchantment>
+	</enchantments>
+    <item>
+<id>3</id>
+<name></name>
+<type>Herramienta</type>
+<rarity>Épico</rarity>
+<damage>Preparar la tierra para plantar</damage>
+<description>Prepara </description>
+<crafteable>true</crafteable>
+<materials>
+<material>Material 1</material>
+<material>Material 2</material>
+</materials>
+<enchantable>true</enchantable>
+<enchantments>
+<enchantment>Encantamiento 1</enchantment>
+<enchantment>Encantamiento 2</enchantment>
+</enchantments>
+</item>
+    
+</item>
