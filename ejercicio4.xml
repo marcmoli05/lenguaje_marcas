@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notas lang="es">
+
+<avaluacion>1</avaluacion>
+    <alumno>
+        <datos>
+            <nombre>Marc</nombre>
+            <apellido>Alabau</apellido>
+            <nia>12345678A</nia>
+            <modulo>
+                <nombre>Base_datos</nombre>
+                <nota>8</nota>
+            </modulo>
+            <modulo>
+                <nombre>leng_marcas</nombre>
+                <nota>7</nota>
+            </modulo>
+            <modulo>
+                <nombre>ingles</nombre>
+                <nota>6</nota>
+            </modulo>
+            <modulo>
+                <nombre>itinerario_personal</nombre>
+                <nota>5</nota>
+            </modulo>
+            <modulo>
+                <nombre>sistemas_operativos</nombre>
+                <nota>4</nota>
+            </modulo>
+            <modulo>
+                <nombre>proj_intermodular</nombre>
+                <nota>3</nota>
+            </modulo>
+            <modulo>
+                <nombre>maquinaria</nombre>
+                <nota>2</nota>
+            </modulo>
+        </datos>
+    </alumno>
+</notas>
