@@ -1,0 +1,9 @@
+<!ATTLIST minecraftItems lang (es|en) #REQUIRED>
+<!ELEMENT minecraftItems (item*)>
+<!ATTLIST item id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT item (name, type, damage, stack, enchantment)>
+<!ELEMENT type (arma, herramienta, bloque )>
+<!ELEMENT damage (#PCDATA)>
+<!ELEMENT rarity (comun, raro, épico)>
