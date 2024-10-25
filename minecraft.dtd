@@ -1,9 +1,32 @@
-<!ATTLIST minecraftItems lang (es|en) #REQUIRED>
-<!ELEMENT minecraftItems (item*)>
-<!ATTLIST item id ID #REQUIRED>
+
+<!ELEMENT minecraftItems (item+)>
+
+<!ELEMENT item (id, name, type, rarity, damage, description, crafteable?, materials, enchantable?, enchantments?)>
+
+<!ELEMENT id (#PCDATA)>
+
 <!ELEMENT name (#PCDATA)>
-<!ELEMENT description (#PCDATA)>
-<!ELEMENT item (name, type, damage, stack, enchantment)>
-<!ELEMENT type (arma, herramienta, bloque )>
+
+<!ELEMENT type (#PCDATA)>
+
+<!ELEMENT rarity (#PCDATA)>
+
 <!ELEMENT damage (#PCDATA)>
-<!ELEMENT rarity (comun, raro, épico)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT crafteable (#PCDATA)>
+
+<!ELEMENT materials (material+)>
+
+<!ELEMENT material (#PCDATA)>
+
+<!ELEMENT enchantable (#PCDATA)>
+
+<!ELEMENT enchantments (enchantment+)>
+
+<!ELEMENT enchantment (#PCDATA)>
+
+<!ATTLIST minecraftItems lang CDATA #REQUIRED>
+
+<!ELEMENT protection (#PCDATA)>
