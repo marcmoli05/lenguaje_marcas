@@ -1,4 +1,3 @@
-
 <!ELEMENT minecraftItems (item+)>
 
 <!ELEMENT item (id, name, type, rarity, damage, description, crafteable?, materials, enchantable?, enchantments?)>
