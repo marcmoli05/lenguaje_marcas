@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<minecraftItems lang="es">
+<!DOCTYPE minecraftItems lang="es" SYSTEM "minecraft.dtd">
 	<item id="1" crafteable="true" enchantable="true" destruible="true">
 		<name>Arco</name>
 		<type>Arma</type>
 		<rarity>Común</rarity>
-        <usos>50</usos>
+		<usos>50</usos>
 		<damage>2</damage>
 		<description>Arma a distancia</description>
-		<crafteable>true</crafteable>
 		<materials>
 			<material>Palo</material>
 			<material>Hilo</material>
 			<material>Hierro</material>
 		</materials>
-		<enchantable>true</enchantable>
 		<enchantments>
 			<enchantment>Infinidad</enchantment>
 			<enchantment>Recuperación</enchantment>
@@ -24,15 +22,13 @@
 		<name>Hacha de oro</name>
 		<type>Herramienta</type>
 		<rarity>Raro</rarity>
-        <usos>50</usos>
+		<usos>50</usos>
 		<damage>4 de daño</damage>
 		<description>Herramienta rápida pero poco duradera para talar árboles.</description>
-		<crafteable>true</crafteable>
 		<materials>
 			<material>3 - Lingote de oro</material>
 			<material>2- Palo</material>
 		</materials>
-		<enchantable>true</enchantable>
 		<enchantments>
 			<enchantment>Irrompibilidad</enchantment>
 			<enchantment>Afilado</enchantment>
@@ -45,12 +41,10 @@
 		<rarity>Épico</rarity>
 		<damage>Preparar la tierra para plantar</damage>
 		<description>Prepara </description>
-		<crafteable>true</crafteable>
 		<materials>
 			<material>Lingote de netherite</material>
 			<material>Palo</material>
 		</materials>
-		<enchantable>true</enchantable>
 		<enchantments>
 			<enchantment>Dureza</enchantment>
 			<enchantment>Irrompibilidad</enchantment>
@@ -60,10 +54,9 @@
 		<name>Poción de veneno</name>
 		<type>Poción</type>
 		<rarity>Raro</rarity>
-        <usos>1</usos>
+		<usos>1</usos>
 		<damage>4</damage>
 		<description>Inflinge 4 de daño a todo aquel que beba la Poción</description>
-		<crafteable>true</crafteable>
 		<materials>
 			<material>Botella de agua</material>
 			<material>Veneno de araña</material>
@@ -74,26 +67,25 @@
 		<name>Botas de cuero</name>
 		<type>Armadura</type>
 		<rarity>Común</rarity>
-        <usos>50</usos>
+		<usos>50</usos>
 		<damage>Protección 2</damage>
 		<description>Disminuye el daño de los golpes</description>
-		<crafteable>true</crafteable>
 		<materials>
 			<material>4 - Cuero</material>
 			<material>2 - Hilo</material>
 			<material>1 - Lingote de hierro</material>
 		</materials>
-        <enchantments>
-            <enchantment>Protección</enchantment>
-            <enchantment>Irrompibilidad</enchantment>
-        </enchantments>
+		<enchantments>
+			<enchantment>Protección</enchantment>
+			<enchantment>Irrompibilidad</enchantment>
+		</enchantments>
 	</item>
 	<item id="6" crafteable="true" enchantable="false" destruible="true">
 		<name>Escudo</name>
 		<type>Armadura</type>
 		<rarity>Común</rarity>
 		<damage>Protección 3</damage>
-        <usos>100</usos>
+		<usos>100</usos>
 		<description>Protege de los ataques enemigos</description>
 		<materials>
 			<material>1 - Lingote de hierro</material>
@@ -101,3 +93,4 @@
 			<material>1 - Cuero</material>
 		</materials>
 	</item>
+</minecraftItems>
