@@ -1,0 +1,36 @@
+<!ELEMENT curriculum (nombre, contacto, aptitudes, resumen_profesional, idiomas, estudios, historial_laboral)>
+<!ATTLIST curriculum
+    lang CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT contacto (telefono, email, direccion)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT direccion (calle, numero, poblacion, provincia, pais, codigo_postal)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+
+<!ELEMENT aptitudes (aptitud+)>
+<!ELEMENT aptitud (nombre, nivel)>
+<!ELEMENT nivel (#PCDATA)>
+
+<!ELEMENT resumen_profesional (#PCDATA)>
+
+<!ELEMENT idiomas (idioma+)>
+<!ELEMENT idioma (nombre, nivel)>
+
+<!ELEMENT estudios (estudio+)>
+<!ELEMENT estudio (nombre, centro, fecha_inicio, fecha_fin)>
+<!ELEMENT centro (#PCDATA)>
+<!ELEMENT fecha_inicio (#PCDATA)>
+<!ELEMENT fecha_fin (#PCDATA)>
+
+<!ELEMENT historial_laboral (trabajo+)>
+<!ELEMENT trabajo (nombre, empresa, fecha_inicio, fecha_fin, descripcion)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

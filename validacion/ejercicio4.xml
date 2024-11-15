@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partida SYSTEM "ejercicio4.dtd">
+<partida>
+    <jugadores>
+        <jugador>
+            <nombre>Jugador 1</nombre>
+            <ficha>X</ficha>
+        </jugador>
+        <jugador>
+            <nombre>Jugador 2</nombre>
+            <ficha>O</ficha>
+        </jugador>
+    </jugadores>
+    
+    <tablero>
+        <celda posicion="1" ficha="X"/>
+        <celda posicion="2" ficha="O"/>
+        <celda posicion="3"/>
+        <celda posicion="4" ficha="X"/>
+        <celda posicion="5" ficha="O"/>
+        <celda posicion="6"/>
+        <celda posicion="7"/>
+        <celda posicion="8"/>
+        <celda posicion="9"/>
+    </tablero>
+    
+    <turnos>
+        <turno>
+            <nombreJugador>Jugador 1</nombreJugador>
+            <posicion>1</posicion>
+        </turno>
+        <turno>
+            <nombreJugador>Jugador 2</nombreJugador>
+            <posicion>2</posicion>
+        </turno>
+        <turno>
+            <nombreJugador>Jugador 1</nombreJugador>
+            <posicion>4</posicion>
+        </turno>
+        <turno>
+            <nombreJugador>Jugador 2</nombreJugador>
+            <posicion>5</posicion>
+        </turno>
+    </turnos>
+</partida>

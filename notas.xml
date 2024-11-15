@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE notas SYSTEM "notas.dtd">
+<notas>
+    <alumno genero="Hombre">
+        <dni></dni>
+        <nombre>Cornelius</nombre>
+        <apellidos>Abascal</apellidos>
+    </alumno>
+</notas>
