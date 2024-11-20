@@ -1,6 +1,5 @@
 <!ELEMENT curriculum (nombre, contacto, aptitudes, resumen_profesional, idiomas, estudios, historial_laboral)>
-<!ATTLIST curriculum
-    lang CDATA #REQUIRED>
+<!ATTLIST curriculum lang (es|en) #REQUIRED>
 
 <!ELEMENT nombre (#PCDATA)>
 
