@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE minecraftItems lang="es" SYSTEM "minecraft.dtd">
+<!DOCTYPE minecraftItems "ejercicio3.dtd">
 	<item id="1" crafteable="true" enchantable="true" destruible="true">
 		<name>Arco</name>
 		<type>Arma</type>

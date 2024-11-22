@@ -1,0 +1,37 @@
+<!ELEMENT empresa (razon_social, pagina_web, sucursal, tickets)>
+<!ATTLIST empresa
+    cif ID #REQUIRED>
+
+<!ELEMENT razon_social (#PCDATA)>
+<!ELEMENT pagina_web (#PCDATA)>
+<!ELEMENT sucursal (codigo_sucursal, nombre_sucursal, direccion, telefonos)>
+<!ELEMENT codigo_sucursal (#PCDATA)>
+<!ELEMENT nombre_sucursal (#PCDATA)>
+<!ELEMENT direccion (calle, codigo_postal, poblacion)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT telefonos (telefono+)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono
+    tipo (fijo|movil) #REQUIRED>
+
+<!ELEMENT tickets (ticket+)>
+<!ELEMENT ticket (numero_ticket, fecha, hora, empleado, lineas_ticket, resumen)>
+<!ELEMENT numero_ticket (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT lineas_ticket (linea_ticket+)>
+<!ELEMENT linea_ticket (cantidad, codigo_articulo, descripcion_articulo, precio_unitario, importe)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT codigo_articulo (#PCDATA)>
+<!ELEMENT descripcion_articulo (#PCDATA)>
+<!ELEMENT precio_unitario (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+
+<!ELEMENT resumen (forma_pago, importe_total)>
+<!ELEMENT forma_pago (#PCDATA)>
+<!ATTLIST forma_pago
+    tipo (efectivo|tarjeta|bizum) #REQUIRED>
+<!ELEMENT importe_total (#PCDATA)>
