@@ -1,83 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE facturas SYSTEM "ejercicio7.dtd">
-<facturas>
-    <factura id="F001">
-        <numero>20241101</numero>
-        <fecha>2024-11-01</fecha>
-        <cliente>
-            <dni>43387698Z</dni>
-            <nombre>Alejandro Catala</nombre>
-            <direccion>
-                <calle>Calle Calpe, 12</calle>
-                <codigo_postal>03700</codigo_postal>
+<!DOCTYPE empresa SYSTEM "ejercicio7.dtd">
+<empresa>
+    <membrete cif="B98419327">
+        <razon_social>Canoas Mauricio</razon_social>
+        <direccion>Calle Mayor, 10</direccion>
+        <codigo_postal>28001</codigo_postal>
+        <poblacion>Madrid</poblacion>
+        <telefono>91232123</telefono>
+        <email>info@canoasmauricio.es</email>
+    </membrete>
+    <facturas>
+        <factura>
+            <numero_factura>F0001</numero_factura>
+            <fecha_emision>2024-11-14</fecha_emision>
+            <cliente>
+                <dni>12345678Z</dni>
+                <nombre>Mario Catala</nombre>
+                <direccion>Calle del Sol, 5</direccion>
+                <codigo_postal>28002</codigo_postal>
                 <poblacion>Madrid</poblacion>
-            </direccion>
-        </cliente>
-        <productos>
-            <producto>
-                <codigo>P001</codigo>
-                <cantidad>2</cantidad>
-                <descripcion>TV Plasma</descripcion>
-                <precio_unitario>100.50</precio_unitario>
-                <iva>21</iva>
-            </producto>
-            <producto>
-                <codigo>P002</codigo>
-                <cantidad>1</cantidad>
-                <descripcion>Subrayador</descripcion>
-                <precio_unitario>3.00</precio_unitario>
-                <iva>10</iva>
-            </producto>
-            <producto>
-                <codigo>P003</codigo>
-                <cantidad>1</cantidad>
-                <descripcion>Calculadora</descripcion>
-                <precio_unitario>10.00</precio_unitario>
-                <iva>21</iva>
-            </producto>
-        </productos>
-        <resumen>
-            <forma_pago tipo="tarjeta">tarjeta</forma_pago>
-            <descuento>5.00</descuento>
-        </resumen>
-    </factura>
-    <factura id="F002">
-        <numero>20241102</numero>
-        <fecha>2024-11-02</fecha>
-        <cliente>
-            <dni>87654321B</dni>
-            <nombre>Ana Maria</nombre>
-            <direccion>
-                <calle>Calle De La Paz, 21</calle>
-                <codigo_postal>46001</codigo_postal>
-                <poblacion>Valencia</poblacion>
-            </direccion>
-        </cliente>
-        <productos>
-            <producto>
-                <codigo>P001</codigo>
-                <cantidad>1</cantidad>
-                <descripcion>Boli Rojo</descripcion>
-                <precio_unitario>1.50</precio_unitario>
-                <iva>21</iva>
-            </producto>
-            <producto>
-                <codigo>P004</codigo>
-                <cantidad>2</cantidad>
-                <descripcion>Goma de borrar</descripcion>
-                <precio_unitario>5.00</precio_unitario>
-                <iva>21</iva>
-            </producto>
-            <producto>
-                <codigo>P002</codigo>
-                <cantidad>3</cantidad>
-                <descripcion>TV Plasma</descripcion>
-                <precio_unitario>120.23</precio_unitario>
-                <iva>10</iva>
-            </producto>
-        </productos>
-        <resumen>
-            <forma_pago tipo="efectivo">efectivo</forma_pago>
-        </resumen>
-    </factura>
-</facturas>
+            </cliente>
+            <productos>
+                <producto>
+                    <codigo_producto>001</codigo_producto>
+                    <cantidad>2</cantidad>
+                    <descripcion_producto>Bolígrafo azul</descripcion_producto>
+                    <precio_unitario>1.50</precio_unitario>
+                    <iva>21</iva>
+                </producto>
+                <producto>
+                    <codigo_producto>002</codigo_producto>
+                    <cantidad>1</cantidad>
+                    <descripcion_producto>Cuaderno A4</descripcion_producto>
+                    <precio_unitario>3.00</precio_unitario>
+                    <iva>10</iva>
+                </producto>
+                <producto>
+                    <codigo_producto>003</codigo_producto>
+                    <cantidad>1</cantidad>
+                    <descripcion_producto>Calculadora</descripcion_producto>
+                    <precio_unitario>10.00</precio_unitario>
+                    <iva>21</iva>
+                </producto>
+            </productos>
+            <resumen_factura>
+                <forma_pago tipo="efectivo"/>
+                <total_factura>17.90</total_factura>
+            </resumen_factura>
+        </factura>
+        <factura>
+            <numero_factura>F0002</numero_factura>
+            <fecha_emision>2024-11-14</fecha_emision>
+            <cliente>
+                <dni>87654321A</dni>
+                <nombre>Ana Maria</nombre>
+                <direccion>Calle Luna, 12</direccion>
+                <codigo_postal>28003</codigo_postal>
+                <poblacion>Madrid</poblacion>
+            </cliente>
+            <productos>
+                <producto>
+                    <codigo_producto>001</codigo_producto>
+                    <cantidad>1</cantidad>
+                    <descripcion_producto>Bolígrafo azul</descripcion_producto>
+                    <precio_unitario>1.50</precio_unitario>
+                    <iva>21</iva>
+                </producto>
+                <producto>
+                    <codigo_producto>002</codigo_producto>
+                    <cantidad>2</cantidad>
+                    <descripcion_producto>Cuaderno A4</descripcion_producto>
+                    <precio_unitario>3.00</precio_unitario>
+                    <iva>10</iva>
+                </producto>
+                <producto>
+                    <codigo_producto>004</codigo_producto>
+                    <cantidad>1</cantidad>
+                    <descripcion_producto>Grapadora</descripcion_producto>
+                    <precio_unitario>5.00</precio_unitario>
+                    <iva>21</iva>
+                </producto>
+            </productos>
+            <resumen_factura>
+                <forma_pago tipo="tarjeta"/>
+                <descuento>1.00</descuento>
+                <total_factura>11.50</total_factura>
+            </resumen_factura>
+        </factura>
+    </facturas>
+</empresa>
