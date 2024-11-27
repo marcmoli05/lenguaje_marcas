@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas SYSTEM "ejercicio7.dtd">
+<facturas>
+    <factura id="F001">
+        <numero>20241101</numero>
+        <fecha>2024-11-01</fecha>
+        <cliente>
+            <dni>12345678A</dni>
+            <nombre>Juan Pérez</nombre>
+            <direccion>
+                <calle>Calle Mayor, 10</calle>
+                <codigo_postal>28001</codigo_postal>
+                <poblacion>Madrid</poblacion>
+            </direccion>
+        </cliente>
+        <productos>
+            <producto>
+                <codigo>P001</codigo>
+                <cantidad>2</cantidad>
+                <descripcion>Bolígrafo azul</descripcion>
+                <precio_unitario>1.50</precio_unitario>
+                <iva>21</iva>
+            </producto>
+            <producto>
+                <codigo>P002</codigo>
+                <cantidad>1</cantidad>
+                <descripcion>Cuaderno A4</descripcion>
+                <precio_unitario>3.00</precio_unitario>
+                <iva>10</iva>
+            </producto>
+            <producto>
+                <codigo>P003</codigo>
+                <cantidad>1</cantidad>
+                <descripcion>Calculadora</descripcion>
+                <precio_unitario>10.00</precio_unitario>
+                <iva>21</iva>
+            </producto>
+        </productos>
+        <resumen>
+            <forma_pago tipo="tarjeta">tarjeta</forma_pago>
+            <descuento>5.00</descuento>
+        </resumen>
+    </factura>
+    <factura id="F002">
+        <numero>20241102</numero>
+        <fecha>2024-11-02</fecha>
+        <cliente>
+            <dni>87654321B</dni>
+            <nombre>Ana López</nombre>
+            <direccion>
+                <calle>Calle Secundaria, 20</calle>
+                <codigo_postal>46001</codigo_postal>
+                <poblacion>Valencia</poblacion>
+            </direccion>
+        </cliente>
+        <productos>
+            <producto>
+                <codigo>P001</codigo>
+                <cantidad>1</cantidad>
+                <descripcion>Bolígrafo azul</descripcion>
+                <precio_unitario>1.50</precio_unitario>
+                <iva>21</iva>
+            </producto>
+            <producto>
+                <codigo>P004</codigo>
+                <cantidad>2</cantidad>
+                <descripcion>Grapadora</descripcion>
+                <precio_unitario>5.00</precio_unitario>
+                <iva>21</iva>
+            </producto>
+            <producto>
+                <codigo>P002</codigo>
+                <cantidad>3</cantidad>
+                <descripcion>Cuaderno A4</descripcion>
+                <precio_unitario>3.00</precio_unitario>
+                <iva>10</iva>
+            </producto>
+        </productos>
+        <resumen>
+            <forma_pago tipo="efectivo">efectivo</forma_pago>
+        </resumen>
+    </factura>
+</facturas>
